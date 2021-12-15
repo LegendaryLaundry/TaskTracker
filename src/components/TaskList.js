@@ -4,7 +4,7 @@ import TaskItem from './TaskItem';
 function TaskList({ task, setTask}) {
     
     const removeTask = i => {
-        let temp = task.filter((v, index) => index != i);
+        let temp = task.filter((v, index) => index !== i);
         setTask(temp); 
     }
 
