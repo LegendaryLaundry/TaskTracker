@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import TaskForm from './components/TaskForm';
-import TaskItem from './components/TaskItem';
 import TaskList
  from './components/TaskList';
 function App() {

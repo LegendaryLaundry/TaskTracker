@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserSlash } from '@fortawesome/free-solid-svg-icons'
 
 
-
 function TaskItem({task, index, removeTask}){
     let date = new Date(task.date);
     let day = date.getDate();

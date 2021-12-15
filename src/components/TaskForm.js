@@ -1,13 +1,13 @@
 import React, {useRef, useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faBookOpen } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBook, faBookOpen } from '@fortawesome/free-solid-svg-icons'
 
 
 function TaskForm({ task, setTask}) {
     const description = useRef(null);
     const date = useRef(null);
     const taskName = useRef(null);
-    const {icons, setIcon} = useState(faBook);
+   
 
 
     const AddTask = e => {
